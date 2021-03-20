@@ -1,4 +1,10 @@
 ---
 label: Profile info
 hide_body: false
-fields: []
+fields:
+- name: avatar
+  type: file
+  config:
+    maxSize: 64
+  label: avatar
+  description: Foto que se mostrará en la página de about
