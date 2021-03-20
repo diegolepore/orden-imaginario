@@ -1,4 +1,49 @@
 ---
 label: Template for Blog posts
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Título del artículo
+  description: Escribe el título de tu artículo
+- name: excerpt
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+    min: 50
+    max: 280
+  label: Breve descripción del artículo
+  description: Escribe una breve descripción de tu artículo
+- name: thumbnail
+  type: file
+  config:
+    maxSize: 64
+  label: Thumbnail
+  description: Está será la imagen que se previsualizará en la lista de tus artículos
+- name: autor
+  type: text
+  config:
+    required: true
+  label: Autor
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: true
+    date_format: DD/MM/YYYY
+    time_format: 
+    display_utc: true
+  default: '2021-03-20T20:43:14Z'
+- name: avatar
+  type: file
+  config:
+    maxSize: 64
+  label: avatar
+  description: Foto de perfil del autor del artículo
