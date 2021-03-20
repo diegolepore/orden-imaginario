@@ -9,6 +9,8 @@ sections:
   label: Artículos (blog posts)
   create: documents
   match: "**/*"
+  templates:
+  - template-for-blog-posts
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
