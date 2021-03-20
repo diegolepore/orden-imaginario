@@ -18,8 +18,8 @@ sections:
   match: "**/*"
   templates:
   - template-for-blog-posts
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: statics
+public_path: ''
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
