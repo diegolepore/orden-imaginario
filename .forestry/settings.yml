@@ -5,6 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: content/about
+  label: Acerca de mi
+  create: all
+  match: "**/*"
+  templates:
+  - profile-info
+- type: directory
   path: content/blog-posts
   label: Artículos (blog posts)
   create: documents
