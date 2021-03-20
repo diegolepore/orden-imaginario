@@ -2,14 +2,6 @@
   <div>
     <Hero :last-post="sortedPosts[0]"/>
 
-    <div class="md:flex w-full p-4 bg-quotes mb-5">
-      <div class="flex flex-col text-center md:text-left md:flex-row w-2/3 justify-center items-center m-auto mb-12 md:mb-auto">
-        <img class="h-12 w-12 mr-5 mb-2 md:mb-0" :src="quoteMessage.attributes.icon" alt="">
-        <p class="mb-0 font-serif font-bold">{{ quoteMessage.attributes.body }}</p>
-      </div>
-      <GiftBox />
-    </div>
-
     <ul class="lg:grid lg:grid-cols-2 lg:gap-4 xl:grid-cols-3 m-0">
       <li v-for="(post, index) in sortedPosts" :key="index">
         <PostListItem :post="post"/>
@@ -33,35 +25,10 @@ export default {
     const sortedPosts = posts.sort((a, b) => Date.parse(b.attributes.date) - Date.parse(a.attributes.date));
 
 
-
-    const allQuotes = await require.context("~/content/frase", true, /\.md$/)
-    const quotes =  allQuotes.keys().map((key) => {
-      // give back the value of each post context
-      return allQuotes(key)
-    })
-
-    // const allBoxMessages = await require.context("~/content/regalo", true, /\.md$/)
-    // const boxMessages =  allQuotes.keys().map((key) => {
-    //   // give back the value of each post context
-    //   return allBoxMessages(key)
-    // })
-
     return {
       sortedPosts,
-      quotes,
       // boxMessages
     }
-  },
-
-  computed: {
-    quoteMessage() {
-      return this.quotes[0]
-    },
-
-    // boxMessage() {
-    //   return this.boxMessages[0]
-    // },
-
   },
 
   methods: {
