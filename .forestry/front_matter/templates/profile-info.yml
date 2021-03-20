@@ -8,3 +8,5 @@ fields:
     maxSize: 64
   label: avatar
   description: Foto que se mostrará en la página de about
+pages:
+- content/about/diego-bio.md
