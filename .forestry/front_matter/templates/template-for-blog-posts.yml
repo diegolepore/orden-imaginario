@@ -47,3 +47,5 @@ fields:
     maxSize: 64
   label: avatar
   description: Foto de perfil del autor del artículo
+pages:
+- content/blog-posts/articulo-de-prueba.md
