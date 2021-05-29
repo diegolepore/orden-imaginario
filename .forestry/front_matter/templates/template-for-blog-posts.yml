@@ -49,3 +49,4 @@ fields:
   description: Foto de perfil del autor del artículo
 pages:
 - content/blog-posts/articulo-de-prueba.md
+- content/blog-posts/mi-circunstancia-tu-circunstancia.md
