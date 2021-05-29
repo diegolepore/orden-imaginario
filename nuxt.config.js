@@ -19,19 +19,19 @@ export default {
       { rel: 'stylesheet', href:'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap' }
     ],
     script: [
-      // { 
-      //   hid:"Cookiebot",
-      //   src:"https://consent.cookiebot.com/uc.js",
-      //   'data-cbid':"d93979b6-041e-418c-b0a2-22288722e242",
-      //   'data-blockingmode':"auto",
-      //   type:"text/javascript"
-      // },
-      // {
-      //   hid:"CookieDeclaration",
-      //   src:"https://consent.cookiebot.com/d93979b6-041e-418c-b0a2-22288722e242/cd.js",
-      //   type:"text/javascript",
-      //   defer: true
-      // }
+      { 
+        hid:"Cookiebot",
+        src:"https://consent.cookiebot.com/uc.js",
+        'data-cbid':"e21371d6-3e7a-425e-abe2-fb019b3bb6c1",
+        'data-blockingmode':"auto",
+        type:"text/javascript"
+      },
+      {
+        hid:"CookieDeclaration",
+        src:"https://consent.cookiebot.com/e21371d6-3e7a-425e-abe2-fb019b3bb6c1/cd.js",
+        type:"text/javascript",
+        defer: true
+      }
     ]
   },
 
@@ -76,11 +76,11 @@ export default {
     } 
   },
 
-  // gtm: {
-  //   id: 'GTM-5NVQW24'
-  // },
+  gtm: {
+    id: 'GTM-M4MMT2G'
+  },
 
-  // googleAnalytics: {
-  //   id: 'G-7BCZJMXWZ5'
-  // }
+  googleAnalytics: {
+    id: 'G-1JEPG0Y2N7'
+  }
 }
