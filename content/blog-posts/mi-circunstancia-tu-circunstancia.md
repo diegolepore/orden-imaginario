@@ -24,7 +24,7 @@ En tal sentido, aclaro que el pensamiento crítico no significa pensar por pensa
 
 Así que podríamos decir, que es sumamente importante conocernos a nosotros mismos, lo que  según Ortega y Gasset, es inherente a conocer nuestras circunstancias: **"Yo soy yo y mi circunstancia".**
 
-[José Carlos Ruiz](https://josecarlosruiz.es/), autor del libro [El Arte de Pensar](https://almuzaralibros.com/fichalibro.php?libro=3928&edi=1), dice con respecto a la cita de [Ortega y Gasset](https://es.wikipedia.org/wiki/Jos%C3%A9_Ortega_y_Gasset):
+<a href="https://josecarlosruiz.es/" target="_blank">José Carlos Ruiz</a>, autor del libro <a href="https://almuzaralibros.com/fichalibro.php?libro=3928&edi=1" target="_blank">El Arte de Pensar</a>,  dice con respecto a la cita de <a href="https://es.wikipedia.org/wiki/Jos%C3%A9_Ortega_y_Gasset" target="_blank">Ortega y Gasset</a>:
 
 > "El yo no se entiende en soledad, nuestra identidad no se construye independientemente de las cosas, personas, lugares, acontecimientos... que nos rodean. La circunstancia podría comprenderse como el conjunto de todo esto que nos ayuda a convertirnos en yo."
 
