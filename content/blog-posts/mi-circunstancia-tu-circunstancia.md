@@ -10,6 +10,8 @@ autor: Diego R. Palacios Lepore
 avatar: "/profile-pic-tiny.png"
 
 ---
+![](/circumnstances-tiny.png)
+
 > “Yo soy yo y mi circunstancia y si no la salvo a ella no me salvo yo” (José Ortega y Gasset).
 
 Cuando empezamos a ser conscientes de nuestra existencia, ya es muy tarde. Para ese momento, ya nos han asignado alguna o algunas nacionalidades, nos han inculcado un sistema moral concreto, se nos ha enseñado, según dicho sistema, lo que es bueno y lo que es malo, en consecuencia, nuestros planes y proyecciones en la vida se ven notablemente influenciados por estos paradigmas,  a través de los cuales vemos a otras personas, culturas, y en definitiva, a la vida misma. Dicho esto, procedo a formular algunas preguntas con la intención de invitar al lector a meditarlas, no es necesario que sean contestadas inmediatamente, pues estos asuntos ameritan ser considerados con pausa: **¿Realmente tenemos el control y somos totalmente libres de ejercerlo? Quiero decir ¿Aquello que nos ha motivado a tomar decisiones ha emanado en su totalidad como una idea completamente y originalmente nuestra?** En base a mis palabras al principio de este artículo, podemos decir que las decisiones que tomamos están influenciadas por nuestros paradigmas y/o sistemas morales o religiosos, estos, que en muchos casos, seguimos ciegamente hasta el final de nuestras vidas **¿Acaso nos detenemos a pensar o a cuestionar los sistemas o creencias que nos han inculcado, o simplemente los aceptamos porque es la tradición familiar? ¿El miedo al qué dirán y al cambio nos mantienen presos y limitan nuestra capacidad real de tomar el timón de nuestras vidas y por tanto decisiones por nosotros mismos?**
