@@ -59,12 +59,12 @@
           >
             INICIO
           </NuxtLink>
-          <NuxtLink
+          <!-- <NuxtLink
             to="/about"
             class="text-gray-800 rounded hover:bg-brand-purple hover:text-gray-100 font-sans font-black py-2 px-2 md:mx-2"
           >
             ACERCA DE MI
-          </NuxtLink>
+          </NuxtLink> -->
         </div>
       </div>
     </nav>

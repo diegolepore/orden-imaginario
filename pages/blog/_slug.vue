@@ -2,7 +2,13 @@
 
 <template>
   <article class="blog">
-    <Hero :last-post="post"/>
+    <div class="lg:absolute left-8">
+      <router-link to="/"> ← Volver </router-link>
+    </div>
+    <!-- <Hero :last-post="post"/> -->
+    <div class="blog__header text-center">
+      <h1 class="text-3xl md:text-4xl mb-4 mx-auto border-b-2 pb-8">{{ post.attributes.title }}</h1>
+    </div>
     <div class="blog__body">
       <div class="blog__body-left" v-html="post.html"></div>
       <!-- <div class="blog__body-right"></div> -->
@@ -14,7 +20,7 @@
         alt="avatar"
       />
       <div class="text-left">
-        <h4 class="m-0">{{ post.attributes.author }}</h4>
+        <h4 class="mb-2">{{ post.attributes.autor }}</h4>
         <span class="text-gray-600 block">{{ postDate }}</span>
       </div>
     </div>
@@ -104,6 +110,12 @@
 
 <style lang="scss">
 .blog {
+  &__header {
+    margin: 50px auto 0 auto;
+    max-width: 680px;
+    width: 100%;
+  }
+
   &__body {
     &-left {
       margin: 0 auto;
@@ -114,7 +126,7 @@
     img {
       display: block;
       margin: 60px auto;
-      max-width: 500px;
+      // max-width: 500px;
       width: 100%;
     }
 

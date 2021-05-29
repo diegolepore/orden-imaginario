@@ -1,15 +1,15 @@
 <template>
   <div id="page-container" class="pt-4 md:pt-6">
     <div id="content-wrap">
-      <div class="w-11/12 max-w-screen-xl bg-white mx-auto rounded-t-md">
+      <!-- <div class="w-11/12 max-w-screen-xl bg-white mx-auto rounded-t-md">
         <Nav/>
-      </div>
+      </div> -->
       <!-- <div class="wrapper bg-white mx-auto px-5 pb-5 md:px-12 md:pb-16"> -->
       <div class="w-11/12 max-w-screen-xl wrapper bg-white mx-auto px-5 pb-5 md:px-12 md:pb-16">
         <Nuxt />
       </div>
     </div>
-    <footer id="footer" class="w-full bg-indigo-600">
+    <!-- <footer id="footer" class="w-full bg-indigo-600">
       <div class="w-11/12 max-w-screen-xl mx-auto h-20 flex justify-between py-5 items-center">
         <div class="text-white flex flex-col flex-grow-0">
           <div class="text-lg inline-block font-serif font-bold text-gray-100 bg-gray-800 md:text-3xl px-6 ">
@@ -36,7 +36,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </div>
 </template>
 

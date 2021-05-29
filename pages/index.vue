@@ -1,5 +1,19 @@
 <template>
   <div>
+    <h1 class="text-4xl md:text-6xl text-center mt-8 mb-8 border-b-2 pb-8">Orden imaginario</h1>
+    
+    <div>
+      <ul class="pb-32">
+        <li v-for="(post, index) in sortedPosts" :key="index" class="mb-24">
+          <PostListItem :post="post"/>
+          <!-- <nuxt-link :to="`/post/${post.id}`">
+            <PostItem :title="post.title" :excerpt="post.excerpt" />
+          </nuxt-link> -->
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- <div>
     <Hero :last-post="sortedPosts[0]"/>
 
     <ul class="lg:grid lg:grid-cols-2 lg:gap-4 xl:grid-cols-3 m-0">
@@ -7,7 +21,7 @@
         <PostListItem :post="post"/>
       </li>
     </ul>
-  </div>
+  </div> -->
 </template>
 
 <script>
