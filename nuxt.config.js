@@ -15,8 +15,8 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'preconnect', href:'https://fonts.gstatic.com' },
-      { rel: 'stylesheet', href:'https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;700;900&display=swap' },
-      { rel: 'stylesheet', href:'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Open+Sans:wght@300;400;600;700&display=swap' }
     ],
     script: [
       { 

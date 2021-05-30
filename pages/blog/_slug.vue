@@ -15,7 +15,7 @@
     </div>
     <div class="text-center my-12 md:my-16 flex items-center">
       <img
-        class="mb-0 w-12 h-12 object-cover rounded-full mr-4 shadow"
+        class="mb-0 w-12 h-12 object-cover rounded-full mr-4 shadow pointer-events-none"
         :src="post.attributes.avatar"
         alt="avatar"
       />
@@ -128,6 +128,7 @@
       margin: 60px auto;
       // max-width: 500px;
       width: 100%;
+      pointer-events: none;
     }
 
     a {

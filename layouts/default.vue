@@ -1,5 +1,5 @@
 <template>
-  <div id="page-container" class="pt-4 md:pt-6">
+  <div id="page-container" class="pt-4 md:pt-6" @contextmenu="contextMenuWarning">
     <div id="content-wrap">
       <!-- <div class="w-11/12 max-w-screen-xl bg-white mx-auto rounded-t-md">
         <Nav/>
@@ -8,6 +8,10 @@
       <div class="w-11/12 max-w-screen-xl wrapper bg-white mx-auto px-5 pb-5 md:px-12 md:pb-16">
         <Nuxt />
       </div>
+    </div>
+    <div v-show="showContextMenuWarning" @click="showContextMenuWarning = false" class="fixed w-full h-full bg-gray-800 top-0 left-0 bg-opacity-75 flex justify-center items-center">
+      <h2 class="text-center text-white w-11/12 max-w-screen-xl mx-auto px-5 pb-5 md:px-12 md:pb-16">“También la historia del Diluvio la COPIARON de la tradición religiosa caldea, en la que el Noé asirio se llama Atrahasis y tras la inundación su arca se posa sobre el monte Nasir (Ararat en la Biblia).” - 
+JUAN ESLAVA GALÁN</h2>
     </div>
     <!-- <footer id="footer" class="w-full bg-indigo-600">
       <div class="w-11/12 max-w-screen-xl mx-auto h-20 flex justify-between py-5 items-center">
@@ -40,5 +44,18 @@
   </div>
 </template>
 
-<style>
-</style>
+<script>
+  export default {
+    data() {
+      return {
+        showContextMenuWarning: false
+      }
+    },
+    methods: {
+      contextMenuWarning (event) {
+        event.preventDefault()
+        this.showContextMenuWarning = true
+      },
+    },
+  }
+</script>

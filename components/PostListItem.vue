@@ -15,7 +15,7 @@
         <div class="author flex items-center -ml-3 my-3">
           <div class="user-logo">
             <img
-              class="w-12 h-12 object-cover rounded-full mx-4 shadow"
+              class="w-12 h-12 object-cover rounded-full mx-4 shadow pointer-events-none"
               :src="post.attributes.avatar"
               alt="avatar"
             />
